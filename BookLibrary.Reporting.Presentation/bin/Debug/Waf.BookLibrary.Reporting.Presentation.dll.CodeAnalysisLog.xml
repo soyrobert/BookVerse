@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\professional\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Reporting.Presentation\bin\Debug\Waf.BookLibrary.Reporting.Presentation.dll">
+   <Modules>
+    <Module Name="waf.booklibrary.reporting.presentation.dll">
+     <Messages>
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Agregue un atributo AssemblyVersion a 'Waf.BookLibrary.Reporting.Presentation.dll'.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Waf.BookLibrary.Reporting.Presentation">
+       <Types>
+        <Type Name="Log" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Default" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Waf.BookLibrary.Reporting.Presentation.Controls">
+       <Types>
+        <Type Name="BindableTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'BindableTable' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'Table', 'Block', 'TextElement', 'FrameworkContentElement', 'ContentElement', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#UpdateContent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="ContentElement" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="DataTemplate" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="ItemTemplate" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="ItemsSource" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="TableRow" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ContentElement" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ContentElement' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ItemsElement" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ItemsElement' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'Section', 'Block', 'TextElement', 'FrameworkContentElement', 'ContentElement', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#UpdateContent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="ContentElement" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="DataTemplate" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="ItemTemplate" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+            <Message Id="ItemsSource" TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Waf.BookLibrary.Reporting.Presentation.DesignData">
+       <Types>
+        <Type Name="SampleBookListReportDataModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SampleBookListReportDataModel' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'Model'</Issue>
+          </Message>
+          <Message Id="BookList" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+         </Messages>
+        </Type>
+        <Type Name="SampleReportViewModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SampleReportViewModel' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'ViewModel&lt;IReportView&gt;', 'ViewModelCore&lt;IReportView&gt;', 'Model'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Waf.BookLibrary.Reporting.Presentation.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Waf.BookLibrary.Reporting.Presentation.Reports">
+       <Types>
+        <Type Name="BookListReport" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'BookListReport' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'UserControl', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+          <Message Id="BookList" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+         </Messages>
+         <Members>
+          <Member Name="#_CreateDelegate(System.Type,System.String)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#flowDocument" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BorrowedBooksReport" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'BorrowedBooksReport' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'UserControl', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#_CreateDelegate(System.Type,System.String)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#flowDocument" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Waf.BookLibrary.Reporting.Presentation.Views">
+       <Types>
+        <Type Name="ReportView" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2024-06-30 20:33:49Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ReportView' está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: 'UserControl', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#createButton" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#reportReader" Kind="Field" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="ExcludedInSource" Created="2024-06-30 20:33:49Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502">
+   <Name>Evite la excesiva complejidad</Name>
+   <Description>Las implementaciones de método que son excesivamente complejas aumentan el reto de comprender y mantener el código.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182212.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Evitar código privado al que no se llama</Name>
+   <Description>Hay código al que no se llama que no es visible externamente y no es un punto de entrada conocido del runtime. Si esta infracción da lugar a un error, envíe un informe sobre el problema al equipo de análisis de código de Visual Studio.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Evitar los campos privados sin utilizar</Name>
+   <Description>Se detectaron campos privados a los que no parece que se obtenga acceso en el ensamblado. Si esta infracción da lugar a un error, envíe un informe sobre el problema al equipo de análisis de código de Visual Studio.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245042.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>Los tipos base de tipos visibles para COM deben ser visibles para COM</Name>
+   <Description>Los tipos visibles para COM deben tener una jerarquía de objetos que sea visible para COM de forma uniforme.</Description>
+   <Resolution Name="Default">{0} está marcado como ComVisible(true) pero tiene los siguientes tipos ComVisible(false) en su jerarquía de objetos: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>En las palabras compuestas se deberían utilizar las mayúsculas y minúsculas correctamente</Name>
+   <Description>Evitar la creación de palabras compuestas de términos que existen en el diccionario como términos discretos. No crear una palabra compuesta como por ejemplo 'StopWatch' ni 'PopUp'. El diccionario reconoce estos términos y se deben emplear mayúsculas y minúsculas: 'Stopwatch' y 'Popup'.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800">
+   <Name>No convertir innecesariamente</Name>
+   <Description>Evite duplicar conversiones cuando sea posible, ya que conllevan un coste asociado.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182271.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Los tipos secundarios deberían poder llamar a los métodos de interfaz</Name>
+   <Description>Se definen implementaciones explícitas de método con accesibilidad privada. Las clases que se derivan de clases con implementaciones explícitas de método y que se decide volver a declararlas en la clase no podrán llamar a la implementación de la clase base a menos que ésta tenga un método alternativo con la accesibilidad apropiada. Cuando se invalida un método de clase base que estaba oculto por la implementación de interfaz explícita para llamar a la implementación de clase base, la clase derivada debe convertir el puntero base en la interfaz adecuada. Cuando se realiza la llamada a través de esta referencia, se invocará la implementación de clase derivada que resultará en la recursividad y el desbordamiento de la pila.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Los literales deben estar escritos correctamente" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Los literales deben estar escritos correctamente</Name>
+   <Description>Esta regla analiza la cadena literal en palabras, convierte en tokens las palabras compuestas y comprueba la ortografía de cada palabra o token.</Description>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016">
+   <Name>Marque los ensamblados con AssemblyVersionAttribute</Name>
+   <Description>Los ensamblados deberían utilizar números de versión. El número de versión se considera parte de la identidad del ensamblado. El control de versiones se aplica mediante el atributo AssemblyVersion.</Description>
+   <Resolution Name="Default">Agregue un atributo AssemblyVersion a {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182155.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoría</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Contraer todo</String>
+  <String Key="CheckId">Comprobar id.</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">errores</String>
+  <String Key="ExpandAll">Expandir todo</String>
+  <String Key="Help">Ayuda</String>
+  <String Key="Line">Línea</String>
+  <String Key="Messages">mensajes</String>
+  <String Key="LocationNotStoredInPdb">[Ubicación no almacenada en Pdb]</String>
+  <String Key="Project">Proyecto</String>
+  <String Key="Resolution">Resolución</String>
+  <String Key="Rule">Regla</String>
+  <String Key="RuleFile">Archivo de regla</String>
+  <String Key="RuleDescription">Descripción de la regla</String>
+  <String Key="Source">Origen</String>
+  <String Key="Status">Estado</String>
+  <String Key="Target">Círculos concéntricos</String>
+  <String Key="Warning">Advertencia</String>
+  <String Key="Warnings">advertencias</String>
+  <String Key="ReportTitle">Informe de análisis del código</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,17 @@
+
+<div class="container text-center">
+  <div class="row" style="padding: 17px;">
+    <div class="col">
+      <img class="card-img-top" *ngIf="data.libro.portada == ''" style="width: 11rem;" src="../../../assets/libro.PNG" alt="Card image cap">
+      <img class="card-img-top" *ngIf="data.libro.portada != ''" style="width: 11rem;" [src]=data.libro.portada alt="Card image cap">
+    </div>
+    <div class="col">
+      <h1>{{data.libro.titulo}}</h1>
+      <p>Autor: {{data.libro.autor}}</p>
+      <p>ISDN: {{data.libro.ISBN}}</p>
+      <p>Fecha publicación: {{data.libro.fecha_publicacion}}</p>
+      <p>Editorial: {{data.libro.editorial}}</p>
+      <button type="button" class="btn btn-primary" (click)="cerrar()">Cerrar</button>
+    </div>
+  </div>
+</div>

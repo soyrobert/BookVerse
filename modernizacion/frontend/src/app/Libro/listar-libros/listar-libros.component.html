@@ -1,0 +1,12 @@
+<mat-grid-list cols="5" rowHeight="4:4">
+  <mat-grid-tile *ngFor="let libro of libros">
+    <div class="card" style="width: 11rem; align-items: center;" (click)="verLibro(libro)">
+      <img class="card-img-top" *ngIf="libro.portada == ''" style="width: 11rem;" src="../../../assets/libro.PNG" alt="Card image cap">
+      <img class="card-img-top" *ngIf="libro.portada != ''" style="width: 11rem;" [src]=libro.portada alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{libro.titulo}}</h5>
+        <p class="card-text">ISDN: {{libro.ISBN}}</p>
+      </div>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>

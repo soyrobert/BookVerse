@@ -1,0 +1,42 @@
+<div class="container text-center">
+  <h1>Formulario para agregar nuevo libro</h1>
+  <br>
+  <div class="row">
+    <div class="col">
+      <img class="card-img-top" *ngIf="image == null || image == ''" style="width: 11rem;" src="../../../assets/libro.PNG" alt="Card image cap">
+      <img class="card-img-top" *ngIf="image != null && image != ''" style="width: 11rem;" [src]=image alt="Card image cap">
+      <br>
+      <br>
+      <input class="form-control" type="file" (change)="uploadImage($event)"/>
+    </div>
+    <div class="col">
+      <form
+        [formGroup]="libroForm"
+        (ngSubmit)="!libroForm.invalid && agregar(
+          libroForm.controls.titulo.value,
+          libroForm.controls.fecha_publicacion.value,
+          libroForm.controls.paginas.value,
+          libroForm.controls.ISBN.value,
+          libroForm.controls.autor.value,
+          libroForm.controls.editorial.value
+          )"
+      >
+        <label>Titulo:</label><input type="text" class="form-control campo_n" formControlName="titulo">
+        <br>
+        <label>Autor:</label><input type="text" class="form-control campo_n" formControlName="autor">
+        <br>
+        <label>ISDN:</label><input type="text" class="form-control campo_n" formControlName="ISBN">
+        <br>
+        <label>Número de paginas:  </label><input type="text" class="form-control campo_n" formControlName="paginas">
+        <br>
+        <label>Fecha publicación:</label><input type="text" class="form-control campo_n" formControlName="fecha_publicacion">
+        <br>
+        <label>Editorial:</label><input type="text" class="form-control campo_n" formControlName="editorial">
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary">Agregar Libro</button>
+      </form>
+    </div>
+  </div>
+</div>
+

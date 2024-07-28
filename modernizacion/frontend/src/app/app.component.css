@@ -1,0 +1,10 @@
+button{
+  --bs-btn-color: #427aa1ff;
+  --bs-btn-border-color: #427aa1ff;
+  --bs-btn-hover-bg: #427aa1ff;
+  --bs-btn-hover-border-color: #427aa1ff;
+  --bs-btn-active-bg: #427aa1ff;
+  --bs-btn-active-border-color: #427aa1ff;
+  --bs-btn-disabled-color: #427aa1ff;
+  --bs-btn-disabled-border-color: #427aa1ff;
+}

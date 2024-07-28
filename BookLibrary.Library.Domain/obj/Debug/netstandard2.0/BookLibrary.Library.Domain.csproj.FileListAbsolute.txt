@@ -1,0 +1,10 @@
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\bin\Debug\netstandard2.0\Resources\BookLibrary.db
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\bin\Debug\netstandard2.0\Waf.BookLibrary.Library.Domain.deps.json
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\bin\Debug\netstandard2.0\Waf.BookLibrary.Library.Domain.dll
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\bin\Debug\netstandard2.0\Waf.BookLibrary.Library.Domain.pdb
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\obj\Debug\netstandard2.0\BookLibrary.Library.Domain.csprojAssemblyReference.cache
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\obj\Debug\netstandard2.0\Waf.BookLibrary.Library.Domain.Properties.Resources.resources
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\obj\Debug\netstandard2.0\BookLibrary.Library.Domain.csproj.GenerateResource.cache
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\obj\Debug\netstandard2.0\BookLibrary.Library.Domain.csproj.CoreCompileInputs.cache
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\obj\Debug\netstandard2.0\Waf.BookLibrary.Library.Domain.dll
+C:\CuartoSemestreAndes\Modernizacion\BookVerse\BookLibrary.Library.Domain\obj\Debug\netstandard2.0\Waf.BookLibrary.Library.Domain.pdb
