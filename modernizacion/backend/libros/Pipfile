@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+flask = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+marshmallow-sqlalchemy = "*"
+marshmallow = "*"
+flask-marshmallow = "*"
+flask-cors = "*"
+
+[dev-packages]
+python-dotenv = "*"
+pytest = "*"
+pytest-cov = "~=4.0.0"
+pytest-mock = "~=3.10.0"
+pytest-env = "~=0.8.1"
+
+[requires]
+python_version = "3.9"

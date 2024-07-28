@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: BookVerse Microservicios
+
+Resources:
+  BookVerseFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src.main.lambda_handler
+      Runtime: python3.9
+      CodeUri: .
+      MemorySize: 128
+      Timeout: 30
+      Events:
+        BookVerseApi:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+      Tags:
+        Author: Robert Castro
+
+Outputs:
+  BookVerseApiUrl:
+    Description: "API Gateway endpoint URL for BookVerse Microservicios"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
