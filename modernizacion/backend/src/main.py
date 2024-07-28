@@ -11,12 +11,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def create_app():
-    """
-    Factory function for generating a new application
-
-    Returns:
-        flask.Flask: application instance
-    """
     app = Flask(__name__)
     app.config["SQLALCHEMY_DATABASE_URI"] = DatabaseUtil.generate_database_uri()
 

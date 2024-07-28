@@ -16,6 +16,8 @@ class Libro(db.Model):
     paginas = db.Column(db.Integer)
     editorial = db.Column(db.String())
     portada = db.Column(db.String())
+    autor = db.Column(db.String(), nullable=False)
+    ISBN = db.Column(db.String(), nullable=False)
     createdAt = db.Column(
         db.DateTime(),
         default=datetime.datetime.now(),
@@ -24,14 +26,17 @@ class Libro(db.Model):
 class LibroSerializerSchema(ma.SQLAlchemyAutoSchema):
     class Meta:
         model = Libro
-        load_instance = True
+        load_instance = False
 
     id = fields.String()
     titulo = fields.String()
     fechaPublicacion = fields.DateTime()
-    paginas =  fields.Integer()
+    paginas = fields.Integer()
     editorial = fields.String()
     portada = fields.String()
+    autor = fields.String()
+    ISBN = fields.String()
     createdAt = fields.DateTime(load_only=True)
 
 libro_schema = LibroSerializerSchema()
+create_schema = LibroSerializerSchema()

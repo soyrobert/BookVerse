@@ -10,7 +10,7 @@ class CreateLibroSchema(Schema):
     fechaPublicacion = fields.DateTime(
         error_messages={"invalid": "fecha Invalida"},
     )
-    paginas = fields.Integer(required = True)
+    paginas = fields.Integer(required=True)
     editorial = fields.String(
         required=True,
         validate=validate.Regexp(r"^[a-zA-Z0-9]*$"),
@@ -19,6 +19,7 @@ class CreateLibroSchema(Schema):
     portada = fields.String(
         required=True,
     )
+    autor = fields.String(required=True) 
+    ISBN = fields.String(required=True)
 
 create_schema = CreateLibroSchema()
-
